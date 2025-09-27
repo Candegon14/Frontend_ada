@@ -1,0 +1,45 @@
+body{
+    background-color:lightpink;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card{
+background-color: lightyellow;
+border-radius: 20px;
+text-align: center;
+width: 280px;
+height: 300px;
+padding: 30px;
+}
+
+.frutas{
+    list-style-type: none;
+    padding: 6px 12px;   
+    border-radius: 15px;  
+}
+
+li{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px; 
+  padding: 5px;
+  margin: 7px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+ }
+
+
+h3 {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 22px;
+  margin-bottom: 20px;}

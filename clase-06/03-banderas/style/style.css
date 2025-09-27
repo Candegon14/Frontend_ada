@@ -1,0 +1,11 @@
+body{
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.franja-celeste{
+    background-color: lightskyblue;
+    
+}

@@ -1,0 +1,60 @@
+#termometro{
+    list-style-type: none;
+    text-align: center;
+    width: 250px;
+}
+.temp0{
+    background-color: rgb(25, 60, 184);
+    height: 30px;
+    width: 100%;
+}
+.temp5{
+    background-color: rgb(79, 57, 246);
+    height: 30px;
+    width: 100%;
+}
+.temp10{
+    background-color: rgb(43, 127, 255) ;
+    height: 30px;
+    width: 100%;
+}
+.temp15{
+    background-color: rgb(184, 230, 254);
+    height: 30px;
+    width: 100%;
+}
+.temp20{
+    background-color: rgb(255, 214, 167);
+    height: 30px;
+    width: 100%;
+}
+.temp25{
+    background-color: rgb(255, 184, 106);
+    height: 30px;
+    width: 100%;
+}
+.temp30{
+    background-color: rgb(255, 137, 4);
+    height: 30px;
+    width: 100%;
+}
+.temp35{
+    background-color: rgb(245, 73, 39);
+    height: 30px;
+    width: 100%;
+}
+.temp40{
+    background-color: rgb(202, 53, 25);
+    height: 30px;
+    width: 100%;
+}
+.temp45{
+    background-color: rgb(193, 16, 7);
+    height: 30px;
+    width: 100%;
+}
+.temp50{
+    background-color: rgb(159, 7, 18);
+    height: 30px;
+    width: 100%;
+}

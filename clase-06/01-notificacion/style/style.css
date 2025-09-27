@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: justify;
+}
+.emoji{
+     font-size: 48px;
+    margin-bottom: 10px;
+}
+

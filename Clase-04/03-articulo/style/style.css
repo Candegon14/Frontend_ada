@@ -1,0 +1,28 @@
+h1{
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.gris{
+    color: gray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    color:aqua;
+    text-decoration: none;
+}
+#primerparrafo{
+    font-style: italic;
+}
+#segundoparrafo{
+    font-weight: bold;
+}
+#tercerparrafo{
+    font-style: italic;
+    font-family: "Mozilla Text", sans-serif;
+}
+#negrita{
+    font-weight: bold;    
+}
+#italica{
+    font-style: italic;
+}

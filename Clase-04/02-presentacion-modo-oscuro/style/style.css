@@ -1,0 +1,26 @@
+body{
+    background-color: #212121;
+    color: #FAFAFA;
+}
+
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 120px;
+    font-weight: 800;
+}
+
+#violeta{
+    color: purple;
+}
+#verde {
+    color: green;
+}
+#rojo {
+    color: red;
+}
+#azul {
+    color: blue;
+}
+
+

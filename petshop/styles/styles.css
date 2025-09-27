@@ -1,0 +1,217 @@
+/* styles.css */
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff8f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f9a825; /* Naranja */
+  color: white;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  border: none;
+}
+/* HERO */
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 50%;
+  left: 70%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.hero-text .btn {
+  display: inline-block;
+  background: #8bc34a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+/* PRODUCTOS DESTACADOS */
+.productos {
+  padding: 2rem;
+  text-align: center;
+}
+
+.filtros button {
+  background: none;
+  border: 2px solid #f9a825;
+  color: #f9a825;
+  padding: 0.3rem 1rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.producto {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.producto h3 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.producto p {
+  font-weight: bold;
+  color: #5d4037;
+}
+
+/* FORMULARIO CONTACTO */
+.contacto {
+  padding: 2rem;
+  background: #fff3e0;
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form-buttons button {
+  background: #f9a825;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  background: #5d4037;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+footer .suscripcion {
+  margin-bottom: 1rem;
+}
+
+footer input {
+  padding: 0.4rem;
+  border-radius: 6px;
+  border: none;
+}
+
+footer button {
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #f9a825;
+  color: white;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+footer .info p {
+  margin: 0.3rem 0;
+}
+
+.copy {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}

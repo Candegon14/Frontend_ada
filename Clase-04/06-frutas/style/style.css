@@ -1,0 +1,41 @@
+body{
+    font-size: 40px;
+}
+.lista{
+    list-style-type: none;
+    padding: 0%;
+}
+#amarillo{
+    color: yellow;
+}
+#anana{
+    color: yellowgreen;
+}
+#verde{
+    color: green;
+}
+#rojo{
+    color: red;
+}
+#naranja{
+    color: orange;
+}
+#manzana{
+ background: linear-gradient(red, green, red, green);
+  background-clip: text; 
+  color: transparent;
+ }
+#azul{
+    color: blue;
+}
+#violeta{
+    color: purple;
+}
+#fuscia{
+    color: rgb(219, 19, 79);
+}
+#mango{
+    background: linear-gradient(yellow, orange, green, orange);
+    background-clip: text;
+    color: transparent;
+}

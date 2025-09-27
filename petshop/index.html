@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Cat&Dog</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">🐾Front Cat&Dog🐈</div>
+    <nav>
+      <ul>
+        <li><a href="#">Comederos</a></li>
+        <li><a href="#">Juguetes</a></li>
+        <li><a href="#">Accesorios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar productos...">
+      <button>🔍</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="./images/fondoPlato.png" alt="Comida para mascotas">
+    <div class="hero-text">
+      <h1>¡Es un placer tenerte aquí!</h1>
+      <a href="#" class="btn">Comederos en descuento</a>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="productos">
+    <h2>Productos Destacados</h2>
+    <div class="filtros">
+      <button>Comederos</button>
+      <button>Accesorios</button>
+      <button>Comida</button>
+    </div>
+
+    <div class="grid-productos">
+      <article class="producto">
+        <img src="./images/churrasquito.png" alt="Juguete Churrasquito">
+        <h3>Juguete Churrasquito</h3>
+        <p>$150</p>
+      </article>
+      <article class="producto">
+        <img src="./images/comedero.png" alt="Comedero para perro">
+        <h3>Comedero para perro</h3>
+        <p>$450</p>
+      </article>
+      <article class="producto">
+        <img src="./images/Huesito.png" alt="Juguete Huesito">
+        <h3>Juguete Huesito</h3>
+        <p>$120</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section class="contacto">
+    <h2 id="contac">Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Nombre y Apellido" required>
+      <input type="tel" placeholder="Teléfono">
+      <input type="email" placeholder="Correo Electrónico" required>
+      <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+      <div class="form-buttons">
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="suscripcion">
+      <p>Suscríbete para más novedades</p>
+      <input type="email" placeholder="Ingresa tu correo">
+      <button>Suscribirme</button>
+    </div>
+    <div class="info">
+      <p>📍 Dirección</p>
+      <p>📞 Teléfono</p>
+      <p>📧 Correo Electrónico</p>
+    </div>
+    <p class="copy">&copy; 2025 Front Cat&Dog. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
