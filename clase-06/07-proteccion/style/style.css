@@ -1,59 +1,76 @@
-body{
+/* SE CAMBIA EL CODIGO PARA IMPLEMENTAR EL MOBILE FIRST (PRUEBA) */
+body {
     background-color: aliceblue;
+    display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    padding: 1rem;
 }
 
-.card{
+.card {
     background-color: white;
     border-radius: 20px;
-    width: 300px;
-    height: 400px;
-    margin: 50px;
+    width: 100%;
+    max-width: 350px; 
     text-align: center;
-    padding: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-.emoji{
-    margin:10px
+
+.emoji {
+    margin: 10px 0;
+    font-size: 2rem;
 }
-.email{
+
+.email {
     font-weight: bold;
     font-size: 14px;
+    word-break: break-word;
 }
-.recovery{
+
+.recovery {
     background-color: rgba(249, 248, 248, 0.919);
-    margin: 30px, 0;
+    margin: 20px 0;
     border-radius: 5px;
     font-size: 14px;
-    ;
+    padding: 10px;
 }
 
-.boton{
-    width: 130px;
-    height: 25px;
+.boton, .boton2 {
+    width: 100%;
+    max-width: 200px;
+    height: 35px;
     border-radius: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+.boton {
     background-color: white;
-    margin-bottom: 15px;
-    
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
 }
 
-.boton2{
-    width: 130px;
-    height: 25px;
-    border-radius: 10px;
+.boton2 {
     background-color: rgb(47, 47, 79);
     color: white;
-    margin-top: 40px;
-    
-    
+    margin-top: 20px;
 }
 
-.boton:hover, .boton2:hover{
+.boton:hover, .boton2:hover {
     background-color: darkgray;
-   cursor: pointer;
+    cursor: pointer;
 }
-.div2{
-    padding-top: 0.5rem;
+
+/* 💻 RESPONSIVE: Ajustes para pantallas más grandes */
+@media (min-width: 768px) {
+    .card {
+        max-width: 400px;
+        padding: 30px;
+    }
+    .emoji { font-size: 2.5rem; }
+    .boton, .boton2 { font-size: 15px; height: 40px; }
 }
